@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Jenkins Demo2 Suite Name">
+  <test name="Jenkinds Demo2 Test Name">
+  <parameter name="testName" value="Demo2" />
+    <classes>
+      <class name="tests.AdminLoginTest">
+      	<methods> 
+      		<include name="AdminLoginTest" />
+      	</methods>
+      	</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
